@@ -133,7 +133,7 @@ class HBNBCommand(cmd.Cmd):
                 value = value.replace('\\', '"')
             elif '.' in value:
                 try:
-                    value = flat(value)
+                    value = float(value)
                 except ValueError:
                     continue
             else:
