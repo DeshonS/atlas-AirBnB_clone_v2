@@ -13,7 +13,7 @@ class FileStorage:
         if cls == None:
             return FileStorage.__objects
         else:
-            for key in cls:
+            for key in cls.__objects:
                 print(key)
 
     def new(self, obj):
