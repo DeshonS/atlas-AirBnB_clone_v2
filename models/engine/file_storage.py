@@ -14,7 +14,7 @@ class FileStorage:
             return FileStorage.__objects
         else:
             for key in self.__objects:
-                if self.__objects == None:
+                if key == None:
                     return
                 else: 
                     print(key)
