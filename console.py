@@ -123,7 +123,7 @@ class HBNBCommand(cmd.Cmd):
         if class_name not in HBNBCommand.classes:
             print("** class doesn't exist **")
             return
-        new_instance = HBNBCommand.classes[args]()
+        new_instance = HBNBCommand.classes[class_name]()
         for param in targs[1:]:
             key_val = param.split("=", 1)
             if len(key_val) != 2:
