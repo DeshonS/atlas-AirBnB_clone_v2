@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+
+
 """Flask module that returns Hello HBNB"""
 
 
