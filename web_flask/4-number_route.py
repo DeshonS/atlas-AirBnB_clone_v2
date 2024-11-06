@@ -32,7 +32,7 @@ def python_text(text):
 @app.route('/number/<n>', strict_slashes=False)
 def print_int(n):
     if n is type(int):
-        return n
+        return "{} is a number".format(n)
     else:
         pass
 if __name__ == "__main__":
